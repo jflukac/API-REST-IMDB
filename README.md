@@ -14,13 +14,13 @@ This methos sends only one movie, but including actors and genres associations.
 ### Create a Movie 
 > (POST: 'http://localhost:3000/api/movies/'):
 This method creates a new movie. Because it is a POST method, the req.body has to be like this:
-```req.body = {
+``` req.body = {
     "title": "Movie Title",
     "awards": INTEGER #ofAwards,
     "length": INTEGER #ofMinutes,
     "releas_date": "yyyy-mm-ddT00:00:00.000Z",
     "genre_id": INTEGER
-}```
+} ```
 
 ### Update a Movie 
 > (PATCH: 'http://localhost:3000/api/movies/:id'):
